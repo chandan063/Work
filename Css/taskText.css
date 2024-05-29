@@ -1,0 +1,36 @@
+div{
+    border: 2px solid black;
+    height: 100vh;
+}
+nav{
+   
+    border-bottom: 2px solid black;
+    height: 80px;
+    line-height: 70px;
+    word-spacing: 220px;
+    text-align: center;
+    background-color:aqua;
+}
+a{
+    text-decoration: none;
+    text-shadow: 1px 2px yellow;
+}
+a:hover{
+    color:fuchsia;
+   
+}
+p{
+    margin: 20px;
+    color: brown;
+    word-spacing: 25px;
+    line-height: 3;
+    text-indent: 80px;
+}
+button{
+    margin-left: 50%;
+    
+}
+button:hover{
+    color: red;
+    background-color: blueviolet;
+}

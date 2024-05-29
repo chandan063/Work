@@ -1,0 +1,88 @@
+*{
+    background-color: antiquewhite;
+}
+
+p{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    transition: 5s;
+}
+p:hover{
+    /* transform: translate(250px,250px);
+     */
+     /* transform: translateX(90vw); */
+     /* transform: translateY(250px); */
+
+
+     /* transform: scale(1.1,1.1); */
+     /* transform: scaleX(1.1); */
+     /* transform: scaleY(1.1); */
+
+
+     /* transform: skew(25deg,25deg); */
+     /* transform: skewX(25deg); */
+     /* transform: skewY(25deg); */
+
+     /* transform: rotate(-60deg); */
+     /* transform: rotateX(45deg); */
+     /* transform: rotateY(55deg); */
+     /* transform: rotateZ(76deg); */
+
+     
+
+}
+button{
+    transition: 0.5s;
+}
+button:hover{
+    transform:scale(1.1,1.1);
+}
+
+#circle{
+    border: 15px solid black;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border-color: white;
+    border-top-color:red;
+    transition: 2s;
+    margin-top: 20%;
+    position: relative;
+    left: 45%;
+    /* transition: 5s; */
+    /* transition: width 10s height 5s; */
+
+    /* 
+       transition is a short hand property 
+       and tras-duration is original property
+    */
+
+    transition-duration: 10s;
+    /* transition-delay: 5s; */
+
+    /* transition-timing-function: ease; */
+    /* slow start,then fast,end slowly */
+
+    /* transition-timing-function: ease in; */
+    /* ease in start slow */
+
+     /* transition-timing-function: ease-out; */
+     /* ease out will end slow */
+
+     /* transition-timing-function: ease-in-out; */
+         /*  same as ease*/
+
+    /* transition-timing-function: linear; */
+    /* same speed through out the time duration */
+
+    transition-timing-function: ;
+}
+
+#circle:hover{
+  transform: rotate(15060deg);
+  /* height:120px ;
+  width:120px ; */
+  
+}

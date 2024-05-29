@@ -1,0 +1,117 @@
+#navigation{
+    border:2px solid black;
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+}
+
+.navigation_content{
+    display:inline-block;
+    width: 278px;
+    text-align: center;
+    height: 60px;
+    line-height: 50px;
+}
+
+#anchor1{
+    text-decoration: none;
+}
+
+#nav_item5{
+    position: relative;
+}
+
+#popup{
+    display: none;
+    background-color: cadetblue;
+    position:absolute;
+    left:0px;
+    width: 250px;
+    height: 100px;
+    top:60px;
+}
+
+#anchor1:hover+#popup{
+    display: block;
+}
+#innerBox{
+    border: 2px solid black;
+    height: 100vh;
+}
+
+
+div .para{
+    background-color: aquamarine;
+    margin-left: 240px;
+    display: inline-block;
+    border: 2px solid red;
+    width: 240px;
+    height: 240px;
+    transition: 2s;
+    text-align: center;
+    padding: 20px;
+}
+div .para:hover{
+    transform: skewX(30deg);
+}
+div #two{
+    margin-left: 30%;
+}
+div #three{
+    margin-left: 41%;
+}
+
+
+/* other */
+
+
+
+
+#card{
+    background-color: bisque;
+    border: 2px solid black;
+    /* display: inline-block; */
+}
+
+#card1,#card2{
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 453px;
+    height: 607px;
+    background-color: white;
+    margin: 40px;
+    margin-left: 138px;
+    border-radius: 15px;
+    transition: 2s;
+    
+}
+#card1:hover,#card2:hover{
+    transform:scale(1.04,1.04);
+}
+
+#card1 img, #card2 img {
+    /* border: 2px solid black; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+#card1 p,#card2 p{
+    padding: 10px 10px 0px 10px;
+}
+
+/* button properties */
+
+#card1 button,#card2 button{
+    width: 167px;
+    height: 46px;
+    margin-left: 148px;
+    background-color:rgb(4,212,240);
+    border-radius: 9px;
+    color:white;
+    border:none;
+}
+
+
+
+

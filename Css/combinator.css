@@ -1,0 +1,43 @@
+/* 
+(descendent selector)
+target direct or indirect child 
+*/
+div p{
+    background-color: red;
+}
+
+/* 
+(child selector)- 
+target only direct child.
+*/
+div>p{
+    background-color: aqua;
+}
+/* 
+(adjacent selector)-
+target next siblings
+*/
+div + p{
+    font-size: 2rem;
+}
+/* 
+(general selector)-target 
+*/
+div ~ p{
+    font-style: italic;
+}
+
+/* p + p{
+    background-color: aquamarine;
+} */
+
+div>span>p{
+    font-size: 3vw;
+}
+.font{
+    text-align: center;
+}
+
+.font>i{
+    color: blue;
+}

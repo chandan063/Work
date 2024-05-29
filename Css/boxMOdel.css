@@ -1,0 +1,87 @@
+/* h1{
+    text-align: center;
+} */
+
+/* 
+>Padding is space between content and the element  border
+  >during use of padding don't fix the size as 100%;
+   
+*/
+
+/* #para1{ */
+  /* border: 1px solid black; */
+  /* padding-left: 20px;
+  padding-top: 25px;
+  padding-right: 20px;
+  padding-bottom: 25px; */
+
+  /* padding: top right bottom left; */
+  /* padding: 45px 25px 25px 25px; */
+
+  /* padding : top&bottom right&left */
+  /* padding:20px 20px; */
+
+  /* padding :top,right,bottom; */
+  /* padding: 20px 30px 40px; */
+
+  /* padding:apply for all; */
+  /* padding: 45px; */
+
+  /* margin-top: 45px; */
+  /* margin-right: 45px; */
+
+  /* 
+  margin-bottom: 45px;
+   it will not work bcs its already far away
+  */
+
+  /* margin-left: 45px; */
+
+  /* margin: 45px; */
+  /* margin: 20px 20px 20px 20px ; */
+  
+/* } */
+
+/* p{
+    border: 2px solid black;
+} */
+
+
+.maindiv{
+    border: 2px solid black;
+    padding: 30px;  
+    background-color: aqua; 
+}
+
+.para1{
+    border: 2px solid black;
+    padding: 50px;
+    background-color: aqua;
+}
+
+.article{
+    border: 2px solid gold;
+    display: inline-block;
+    border-radius: 20%;
+    border-width: 10px;
+    border-style: double;
+    border-right-color: greenyellow;
+    border-bottom-style: none;
+    
+    padding: 20px;
+    background-color: yellow;
+    /* font-size: ; */
+    font-family: serif;
+    font-style: italic;
+    font-variant: small-caps;
+   
+    max-width: 320px;
+    
+}
+.para1>.article:nth-child(2){
+   margin-left: 100px;
+}
+.para1>.article:nth-child(2){
+    margin-right: 100px;
+}
+

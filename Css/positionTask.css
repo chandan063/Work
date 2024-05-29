@@ -1,0 +1,49 @@
+#nav1{
+    border: 1px solid black;
+    height: 10vh; 
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 25px;
+    background-color: aquamarine;
+}
+#nav2{
+    border: 2px solid black;
+    border-top:none;
+    height: 200vh;
+}
+#nav3 .nav{
+   text-decoration: none;
+   color: black;
+}
+#nav3 .nav:hover{
+    color: red;
+}
+#nav3{
+    border: 2px solid black;
+    text-align: center;
+    padding: 40px;
+    word-spacing: 220px;
+    background-color: aqua;
+    position: sticky;
+    top: 0.2px;
+}
+
+#homeContent
+{
+  line-height:2 ;
+  word-spacing: 52px;
+}
+
+
+
+.footer{
+    border: 2px solid black;
+    text-align: center;
+    height: 10vh;
+    width: 97.5vw;
+   line-height: 4;
+   position:fixed;
+   top:89.4vh ;
+   background-color:aqua;
+}
+

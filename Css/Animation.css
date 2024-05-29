@@ -1,0 +1,87 @@
+
+
+.hello{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    color: white;
+    animation-name: para;
+    animation-duration:10s;
+    /* animation-iteration-count: 2; */
+    animation-iteration-count: infinite;
+    position: relative;
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    transition-timing-function: linear;
+    /* animation direction */
+    /* animation-direction: alternate; */
+    animation-direction: alternate-reverse;
+
+    /* animation-delay: 5s; */
+
+}
+
+@keyframes para{
+    /* from{
+        background-color: rgb(238, 101, 101);
+    }
+    to{
+        background-color: rgb(56, 235, 56);
+    } */
+    
+    /* staging */
+
+    0%{
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: blue;
+        left: 550px;
+        top: 0px;
+    }
+    50%{
+        background-color: yellowgreen;
+        left: 550px;
+        top: 490px;
+    }
+    75%{
+        background-color: aqua;
+        left: 0px;
+        top: 490px;
+       
+    }
+    100%{
+        background-color: red;
+        top: 0px;
+        left: 0px;
+    }
+}
+
+
+/* button animation on paragraph text */
+
+button:hover + #p1{
+ animation-name: parab;
+ animation-duration: 10s;
+ /* animation-fill-mode: both; */
+ animation-fill-mode:forwards;
+}
+
+button:hover ~ #p2{
+    animation-name: parab;
+    animation-duration: 10s;
+    /* animation-fill-mode: both; */
+    animation-fill-mode: backwards;
+   }
+
+@keyframes parab {
+    from{
+        font-size: 14px;
+    }
+    to{
+        font-size: 25px;
+    }
+}

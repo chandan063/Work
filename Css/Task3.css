@@ -1,0 +1,44 @@
+
+h1{
+    text-align: center;
+    border: 2px solid black;
+    height: 100px;
+    background-color: aquamarine;
+    line-height: 2.5;
+}
+/* p{
+    border: 2px solid black;
+    min-width: 250px;
+} */
+
+/* p{
+    border: 2px solid red;
+    height: 200px;
+    overflow: hidden; 
+    overflow: scroll; 
+ }*/
+
+div{
+    border: 2px solid black;
+    background-color: antiquewhite;
+    height: 100vh;
+    padding: 20px;
+    
+}
+
+ .inner{
+    border: 2px solid black;
+    background-color:azure;
+    height: 350px;
+    overflow: scroll;
+    
+  
+ }
+ 
+ div>p>ul{
+    border: 2px solid green;
+    height: 100px;
+ }
+ article{
+    text-align: center;
+ }

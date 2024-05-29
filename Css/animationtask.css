@@ -1,0 +1,93 @@
+#outerCircle{
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-color: yellow;
+    
+}
+
+#eye1,#eye2{
+    margin-top: 120px;
+    margin-left: 30px;
+    display: inline-block;
+    /* border: 2px solid black; */
+    border-radius: 90%;
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    
+}
+#eye1 #shadow,#eye2 #shadow2{
+    /* border: 2px solid red; */
+    margin-top: 13px;
+    border-radius: 90%;
+   width:180px ;
+   height:80px ;
+   background-color: antiquewhite;
+   box-shadow: 1px 1px 20px 15px white;
+}
+#shadow .circle,#shadow2 .circle{
+    border: 2px solid black;
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    margin-top: 20px;
+    background-color: black;
+    border-radius: 90%;
+    position: relative;
+    border-width: 10px;
+    animation-name: eyeball;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+#outerCircle img{
+    margin-left: 120px;
+    animation-name: smile;
+    position: relative;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes smile {
+    0%{
+        transform: skewX(10deg);
+    }
+    25%{
+        transform: skewX(12deg);
+    }
+    75%{
+        transform: skewX(-10deg);
+
+    }
+    100%{
+        transform: skewX(-12deg);
+    }
+    
+}
+
+
+
+@keyframes eyeball {
+    0%{
+        left: 15px;
+        top:24px;
+    }
+    25%{
+        top: 30px;
+        left: 100px;
+    }
+    75%{
+        top: 32px;
+        left: 40px;
+
+    }
+    100%{
+        top: 26px;
+        left: 0px;
+    }
+    
+}

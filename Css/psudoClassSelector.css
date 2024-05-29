@@ -1,0 +1,47 @@
+*{
+    background-color: azure;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+a{
+    font-size: 2vw;
+}
+
+a:link{
+    color: yellow;
+}
+a:visited{
+    color:aqua;
+}
+a:active{
+    color:black;
+}
+
+a:hover{
+    font-size: 4vw;
+}
+
+
+.span1{
+    display: block;
+    border: 2px solid red;
+}
+
+span{
+    border: 1px solid black;
+    display: none;
+}
+p:hover+span{
+    display: block;
+
+}
+
+
+button:hover{
+    background-color: aquamarine;
+}

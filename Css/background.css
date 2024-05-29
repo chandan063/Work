@@ -1,0 +1,27 @@
+#maindiv{
+    border: 15px dashed black;
+    background-image: url("https://cdn.pixabay.com/photo/2024/03/14/08/52/pug-8632718_1280.jpg");
+
+    height: 150vh;
+    /* background-size: 450px 450px; */
+    /* background-repeat:no-repeat; */
+    /* background-repeat: round; */
+    /* background-size:100%;
+     */
+    /* 
+    cover==100%
+
+    */
+    /* background-size: 250px 250px; */
+    padding: 100px;
+    /* background-position:right bottom ; */
+    /* background-position: center center; */
+    /* background-position:top left; */
+    /* background-attachment:fixed; */
+    /* background-attachment: scroll; */
+
+    /* background-clip:border-box ; */
+    /* background-clip: padding-box; */
+    background-clip: content-box;
+
+}

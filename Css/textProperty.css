@@ -1,0 +1,13 @@
+p{
+    border: 2px solid black;
+    color:black;
+    text-align: center;
+    
+    text-transform: capitalize;
+    word-spacing: 5px;
+}
+
+h1{
+    text-shadow: 2px 2px red;
+    text-align: center;
+}

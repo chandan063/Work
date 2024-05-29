@@ -1,0 +1,47 @@
+
+
+#card{
+    background-color: bisque;
+    border: 2px solid black;
+    /* display: inline-block; */
+}
+
+#card1,#card2{
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 453px;
+    height: 607px;
+    background-color: white;
+    margin: 40px;
+    margin-left: 138px;
+    border-radius: 15px;
+    transition: 2s;
+    
+}
+#card1:hover,#card2:hover{
+    transform:scale(1.02,1.02);
+}
+
+#card1 img, #card2 img {
+    /* border: 2px solid black; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+#card1 p,#card2 p{
+    padding: 10px 10px 0px 10px;
+}
+
+/* button properties */
+
+#card1 button,#card2 button{
+    width: 167px;
+    height: 46px;
+    margin-left: 148px;
+    background-color:rgb(4,212,240);
+    border-radius: 9px;
+    color:white;
+    border:none;
+}
+

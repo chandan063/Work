@@ -1,0 +1,149 @@
+/* *{
+    background-color: antiquewhite;
+} */
+
+h1{
+    text-align: center;
+}
+img{
+    width: 250px;
+    height: 250px;
+    opacity: 0.1;
+}
+img:hover{
+    opacity: 1;
+    border-radius: 0% !important;
+}
+img[alt]{
+    border: 5px solid red;
+    
+}
+img[alt="fruits"]{
+    border: 5px solid yellow;
+}
+/* ^ symbol to select prefix */
+img[alt^="mixed"]{
+  border: 5px solid orange;
+}
+/* $ symbol for selecting suffix */
+img[alt$="mixed"]{
+    border: 6px solid olivedrab;
+    
+}
+/* for targetting hypan(-) followd by value*/
+img[alt|="mixed"]{
+    border: 6px solid lawngreen;
+}
+
+/* targetting with space between alt="a b" */
+/* img[alt~="fruits"]{
+    border-radius: 40%;
+} */
+
+img[alt|="fruits"]{
+    border: 6px solid black;
+}
+
+img[alt*="m"]{
+    border-radius: 30%;
+}
+
+/*  */
+input{
+    padding: 10px;
+}
+
+/* input[type="text"]:enabled{
+    background-color: red;
+    border:2px solid yellow;
+    color: blue;
+} */
+
+
+/* when we disabled the input */
+/* input[type="text"]:disabled{
+    background-color: aqua;
+    border: 2px solid yellow;
+} */
+
+/* input:focus{
+    background-color: aquamarine;
+} */
+
+/* input:required{
+    background-color: red;
+}
+input[type=text]:read-only{
+   background-color: khaki;
+   color: blue;
+}
+input[type=text]:read-write{
+    background-color:blueviolet;
+    color:white;
+} */
+
+/* if we want to show the color if our all criteria is satisfied see in first name  */
+/* input[type="text"]:valid{
+    background-color: cornflowerblue;
+}
+input[type="text"]:invalid{
+    background-color:deeppink;
+} */
+
+
+
+/* Structural psudo classs */
+
+/* for targetting 1st child */
+/* #maindiv>.children:first-child{
+    background-color: fuchsia;
+} */
+
+/* For targetting last child */
+/* #maindiv>.children:last-child{
+    background-color: darkgoldenrod;
+} */
+
+/* for targetting 2nd child */
+/* #maindiv>.children:nth-child(2){
+background-color: aqua;
+} */
+
+/* for targetting 3rd child */
+/* #maindiv>.children:nth-child(3){
+    background-color:darksalmon;
+} */
+/*  for targetting odd*/
+/* #maindiv>.children:nth-child(odd){
+    font-style: italic;
+} */
+
+/*  for targetting even*/
+/* #maindiv>.children:nth-child(even){
+    font-style:normal;
+} */
+
+
+/* #maindiv>.children:nth-child(2n){
+    background-color: blueviolet;
+} */
+
+/* #maindiv>.children:nth-child(2n-1){
+    background-color: red;
+} */
+
+/* we want to find italic whethers it 1st or 2nd or last */
+
+div>i:first-of-type{
+    background-color: red;
+}
+div>i:last-of-type{
+    background-color: yellow;
+}
+
+div>i:nth-of-type(2){
+    background-color:fuchsia;
+}
+:
+
+

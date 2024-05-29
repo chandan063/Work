@@ -1,0 +1,69 @@
+/* for targetting first letter */
+/* article::first-letter{
+    color: red;
+    font-size: xx-large;
+} */
+/* for targetting first line */
+/* article::first-line{
+    background-color: aqua;
+} */
+
+/* while try to select it will show this particular color */
+article::selection{
+    color: red;
+    background-color: yellow;
+}
+
+/* to make the dotted line red */
+ul>li::marker{
+    color: red;
+}
+
+div{
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+}
+
+h1::before{
+    content: "* * * ";
+    color: red;
+    font-size: x-large;
+}
+h1::after{
+    content: " * * * ";
+    color:brown;
+    font-size:x-large;
+}
+
+h2::before{
+    content:"";
+    border: 3px solid black;
+    position: absolute;
+    left:300px;
+    width:350px;
+    top: 120px;
+    border-bottom-style:none ;
+    border-left-style: none;
+    border-right-style: none;
+}
+h2::after{
+    content:"";
+    border: 3px solid red;
+    position: absolute;
+    right:300px;
+    width: 350px;
+    top: 120px;
+    border-bottom-style:none ;
+    border-left-style: none;
+    border-right-style: none;
+}
+h3:before{
+    content: "hello";
+    border: 2px solid yellow;
+    position: absolute;
+    left: 400px;
+    width:250px ;
+    top: 150px;
+    border-bottom-style: ;
+}

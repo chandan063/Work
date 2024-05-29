@@ -1,0 +1,42 @@
+.font + #first{
+    background-color: red;
+}
+
+.font{
+    text-align: center;
+}
+
+.font>i{
+    color: blue;
+}
+.font>span>i{
+    color:gold;
+}
+
+#first + #para3{
+    background-color: red;
+}
+
+#first>h1{
+    color: blue;
+}
+
+#para3>.childpara3{
+    background-color: aqua;
+}
+
+#first h2{
+   background-color: burlywood;
+}
+
+#para5{
+    background-color: aqua;
+}
+#para>a{
+   font-size: 12vw; 
+}
+
+
+
+
+
